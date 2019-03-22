@@ -1,0 +1,85 @@
+ <body>
+    <div class="be-wrapper be-fixed-sidebar">
+     {{>modal}}
+     {{>up}}
+     {{>left}}
+      <div class="be-content">
+        <div class="main-content container-fluid">
+           <!--Responsive table-->
+            <div class="col-sm-12">
+              <div class="panel panel-default panel-table">
+                <div class="panel-heading">Новости
+                  <div class="tools">
+                    <div class="btn-group btn-hspace">
+                            <button type="button" data-toggle="dropdown" class="btn btn-space btn-primary dropdown-toggle">Управление <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                            <ul role="menu" class="dropdown-menu pull-right">
+                              <li><a href="#">Добавить новость</a></li>
+                            </ul>
+                          </div></div>
+                </div>
+                <div class="panel-body">
+                  <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                       <!-- <th style="width:5%;">
+                          <div class="be-checkbox be-checkbox-sm">
+                            <input id="check1" type="checkbox">
+                            <label for="check1"></label>
+                          </div>
+                        </th>-->
+                        <th style="width:20%;">Система</th>
+                        <th style="width:32%;">Описание</th>
+                       <!-- <th style="width:15%;">Milestone</th>
+                        <th style="width:10%;">Branch</th>-->
+                        <th style="width:15%;">Дата</th>
+                        <th style="width:10%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!--Новость-->
+                      <tr>
+                        <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar6.png" alt="Avatar"><span>Каракатица</span><span class="cell-detail-description">Автоматически</span></td>
+                        <td class="cell-detail"> <span>Почему все сервера лагают, я не могу пользоваться ничем</span></td>
+                        <td class="cell-detail"><span>Февраль 28, 2018</span><span class="cell-detail-description">20:30</span></td>
+                        <td class="text-right">
+                          <div class="btn-group btn-hspace">
+                            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Действия <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                            <ul role="menu" class="dropdown-menu pull-right">
+                              <li><a href="#">Посмотреть </a></li>
+                              <li><a href="#">Удалить</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Получить ссылку на новость</a></li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                        <!--Конец Новость-->
+                        <!--Новость-->
+                      <tr>
+                        <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar6.png" alt="Avatar"><span>Каракатица</span><span class="cell-detail-description">Автоматически</span></td>
+                        <td class="cell-detail"> <span>Почему все сервера лагают, я не могу пользоваться ничем</span></td>
+                        <td class="cell-detail"><span>Февраль 28, 2018</span><span class="cell-detail-description">20:30</span></td>
+                        <td class="text-right">
+                          <div class="btn-group btn-hspace">
+                            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Действия <span class="icon-dropdown mdi mdi-chevron-down"></span></button>
+                            <ul role="menu" class="dropdown-menu pull-right">
+                              <li><a href="#">Посмотреть </a></li>
+                              <li><a href="#">Удалить</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Получить ссылку на новость</a></li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                        <!--Конец Новость-->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    {{>script}}
+    </body>
